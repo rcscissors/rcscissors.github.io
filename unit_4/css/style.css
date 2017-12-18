@@ -43,7 +43,7 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	font-family: 'Rammetto One', Cursive;
+	font-family: 'Open Sans', san-serif;
 	margin: 2em auto;
 	font-weight: 800;
 	color: #fff;
@@ -70,7 +70,7 @@ ul {
 	list-style-position: inside;
 	text-align: left;
 	font-size: 1em;
-	padding: 1em;
+	padding: 0;
 	padding-left: 100px;
 	padding-right: 100px;
 }
