@@ -8,12 +8,14 @@
 header {
 	background-color: rgba(203,101,101,.4);
 	padding-top: 10px;
-	line-height: 4em;
+	line-height: 2em;
+	padding-bottom: 10px;
 }
 
 main {
-	background-color: rgba(76,15,15,.7);
+	background-color: rgba(76,15,15,.65);
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 body {
@@ -95,20 +97,20 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	width: 1em;
-	padding: 1em;
-	font-size: 1em;
+	padding: 4em;
+	font-size: .75em;
 	text-transform: uppercase;
 	font-weight: 800;
 	letter-spacing: 2px;
 	padding-bottom: 2px;
 	text-decoration: none;
 	border-bottom: none;
+	letter-spacing: 3px;
 }
 
 footer {
-	background-color: rgba(203,101,101,.4);
-	padding-top: 0px;
-	line-height: 4em;
+	background-color: #4C0f0f;
+	padding-top: 1px;
 }
 
 nav {
