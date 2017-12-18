@@ -6,13 +6,13 @@
 }
 
 header {
-	background-color: rgba(203,101,101,.3);
+	background-color: rgba(203,101,101,.4);
 	padding-top: 10px;
 	line-height: 4em;
 }
 
 main {
-	background-color: rgba(76,15,15,.5);
+	background-color: rgba(76,15,15,.7);
 	padding-top: 10px;
 }
 
@@ -106,7 +106,7 @@ ul {
 }
 
 footer {
-	background-color: rgba(203,101,101,.3);
+	background-color: rgba(203,101,101,.4);
 	padding-top: 0px;
 	line-height: 4em;
 }
