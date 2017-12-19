@@ -3,7 +3,7 @@
 * {
 	padding: 0
 	margin: 0;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 body {
@@ -54,7 +54,7 @@ main {
 section {
 /*	width: 35em;*/
 	min-width: 20em;
-	max-width: 35em;
+	max-width: 33em;
 	margin: 2em auto;
 }
 
@@ -64,7 +64,7 @@ footer {
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 0;
-	height: 4em;
+	height: 6em;
 	font-size: .7em;
 	margin: 0 auto;
 }
@@ -133,7 +133,7 @@ a {
 	text-transform: lowercase;
 	font-weight: 700;
 	color: #000;
-	width: auto;
+	max-width: 30em;
 	padding: 0;
 }
 
