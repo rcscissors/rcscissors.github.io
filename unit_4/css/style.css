@@ -29,6 +29,9 @@ body {
 	background-attachment: fixed;
 	color: #fff;
 	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
 	margin: auto;
 	letter-spacing: .03em;
 	/*padding-left: 100px;
@@ -102,7 +105,8 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	width: 1em;
-	padding: 4em;
+	padding-right: 4em;
+	padding-left: 4em;
 	font-size: .75em;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -114,7 +118,10 @@ ul {
 
 footer {
 	background-color: #4C0f0f;
-	padding: 10px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
 	height: 4em;
 	font-size: .7em;
 	margin: 0 auto;
