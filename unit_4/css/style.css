@@ -3,19 +3,7 @@
 * {
 	padding: 0
 	margin: 0;
-}
-
-header {
-	background-color: rgba(203,101,101,.4);
-	padding-top: 50px;
-	line-height: 1.3em;
-	padding-bottom: 10px;
-}
-
-main {
-	background-color: rgba(76,15,15,.65);
-	padding-top: 10px;
-	padding-bottom: 10px;
+	box-sizing: border-box;
 }
 
 body {
@@ -34,10 +22,52 @@ body {
 	padding-bottom: 0;
 	margin: auto;
 	letter-spacing: .03em;
+	position: relative;
 	/*padding-left: 100px;
 	padding-right: 100px;*/
 }
 
+header {
+	background-color: rgba(203,101,101,.4);
+	padding-top: 50px;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}
+
+nav {
+	background-color: #4C0f0f;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 1.5em;
+	margin: auto;
+}
+
+main {
+	background-color: rgba(76,15,15,.65);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section {
+/*	width: 35em;*/
+	min-width: 20em;
+	max-width: 35em;
+	margin: 2em auto;
+}
+
+footer {
+	background-color: #4C0f0f;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	height: 4em;
+	font-size: .7em;
+	margin: 0 auto;
+}
 
 h1 {
 	color: #4C0f0f/*#7f1919*/;
@@ -48,16 +78,7 @@ h1 {
 	font-family: 'Rammetto One', Cursive;
 	padding-bottom: 0px;
 	line-height: 1.5em;
-}
-
-#slogan {
-	font-family: 'Rammetto One', Cursive;
-	font-size: 1.5em;
-	text-transform: lowercase;
-	font-weight: 700;
-	color: #000;
-	width: 30.3em;
-	padding: 0;
+	word-spacing: 1em;
 }
 
 h2 {
@@ -79,12 +100,11 @@ hr {
 
 p {
 	font-size: 1em;
-	width: 35em;
-	margin: 1em auto;
+	width: auto;
+	margin: 2em auto;
 	line-height: 1.5em;
 	padding: 0;
 	border: none;
-
 }
 
 ul {
@@ -98,6 +118,24 @@ ul {
 	margin: 0 auto;
 }
 
+a {
+	color: #ffffff;
+	font-weight: 800;
+	text-decoration: none;
+	border-bottom: 1px solid #cb6565;
+	padding-bottom: 1px;
+
+}
+
+#slogan {
+	font-family: 'Rammetto One', Cursive;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-weight: 700;
+	color: #000;
+	width: auto;
+	padding: 0;
+}
 
 #launch {
 	font-weight: bold;
@@ -117,34 +155,4 @@ ul {
 	text-decoration: none;
 	border-bottom: none;
 	letter-spacing: 4px;
-}
-
-footer {
-	background-color: #4C0f0f;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	height: 4em;
-	font-size: .7em;
-	margin: 0 auto;
-}
-
-nav {
-	background-color: #4C0f0f;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	line-height: 1.5em;
-}
-
-a {
-	color: #ffffff;
-	font-weight: 800;
-	text-decoration: none;
-	border-bottom: 1px solid #cb6565;
-	padding-bottom: 1px;
-
 }
