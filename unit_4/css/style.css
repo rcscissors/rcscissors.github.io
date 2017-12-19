@@ -50,10 +50,20 @@ h1 {
 	line-height: 1.5em;
 }
 
+#slogan {
+	font-family: 'Rammetto One', Cursive;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-weight: 700;
+	color: #000;
+	width: 30.3em;
+	padding: 0;
+}
+
 h2 {
 	font-size: 1.5em;
 	font-family: 'Open Sans', san-serif;
-	margin: 2em auto;
+	margin: 1em auto;
 	font-weight: 800;
 	color: #fff;
 	line-height: 1.5em;
@@ -88,13 +98,6 @@ ul {
 	margin: 0 auto;
 }
 
-#slogan {
-	font-family: 'Rammetto One', sans-serif;
-	font-size: 1.5em;
-	text-transform: lowercase;
-	font-weight: 700;
-	color: #000;
-}
 
 #launch {
 	font-weight: bold;
