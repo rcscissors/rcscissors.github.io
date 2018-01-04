@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+
+* {
+	padding: 0
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.3em;
+	text-align: center;
+	background: url("../images/offwhitebrickbackground.jpg");
+	background-size: cover; 
+	background-attachment: fixed;
+	padding: .5em 0 0 0;
+	margin: auto;
+	letter-spacing: .03em;
+/*	position: relative;*/
+}
+
+nav {
+	background-color: #4c0f0f;
+	line-height: 1.5em;
+}
+
+nav a {
+	background-color: #4c0f0f;
+	font-family: Open Sans, sans-serif;
+	color: #fff;
+	padding: 45px;
+	font-size: .8em;
+	text-transform: lowercase;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: none;
+	letter-spacing: .2em; /*check this*/
+	display: block;
+	float: left;
+	width: 5em;
+	margin: 0px;
+	box-sizing: content-box;
+}
+
+a {
+	color: #ffffff;
+	font-weight: 800;
+	text-decoration: none;
+	border-bottom: .05em solid #cb6565;
+	padding-bottom: .05em;
+}
+
+header {
+	background-color: rgba(203,101,101,.4);
+	padding: 0 0 .5em 0;
+	line-height: 1.3em;
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+
+#logo {
+	background-color: #4c0f0f;
+	padding: .5em;
+	display: block;
+	float: left;
+	width: 5em;
+	margin: 0px;
+}
+
+main {
+	background-color: rgba(76,15,15,.65);
+	padding-top: .5em;
+	padding-bottom: .5em;
+	line-height: 1.5em;
+}
+
+/*article img {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+}*/
+
+section {
+/*	min-width: 10em;
+	max-width: 33em;*/
+	margin: 2em /*auto*/;
+}
+
+footer {
+	background-color: #4C0f0f;
+	padding-top: .5em;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	height: 2.5em;
+	font-size: .7em;
+	margin: 0 /*auto*/;
+	clear: both;
+}
+
+h1 {
+	color: #4C0f0f;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: Rammetto One, Cursive;
+	padding: 1em 2em 0 2em;
+	line-height: 1.5em;
+	word-spacing: 1em;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Open Sans, san-serif;
+	margin: .25em;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1.5
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #fff;
+	word-spacing: .1em;
+	line-height: 1.5em;
+/*	text-shadow: 1px 0px 2px #fff;*/
+}
+
+hr {
+	width: 5em;
+	height: 3px;
+	border: none;
+	background-color: #fff;
+	padding: 0;
+	margin: .75em auto /*.75em auto*/;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0;
+	border: none;
+}
+
+article p {
+	width: 95%;
+}
+
+ul {
+	display: inline-block;
+	list-style-position: inside;
+/*	text-align: left;*/
+	font-size: 1em;
+	padding: .5em 5em;
+	margin: 0 auto;
+}
+
+article {
+	display: block;
+	float: left;
+	width: 28.5%;
+	margin: .75em;
+	box-sizing: content-box;
+}
+
+/*.column {
+	z-index: 2;
+	position: relative;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content:" ";
+	clear: both;
+	height:0;
+}
+
+#main1 {
+	z-index: 2;
+	position: relative;
+	width: 28.5%;
+	
+}
+#main2 {
+	z-index: 2;
+	position: relative;
+	width: 28.5%;
+	padding: 0 1.2em 0 1.2em;
+}
+
+#main3 {
+	z-index: 2;
+	position: relative;
+	width: 28.5%;
+}
+
+#main2 img{
+	width: 342px;
+	height: 608px;
+	opacity: .5;
+	z-index: -1;
+}
+
+#main1:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	opacity: .5;
+	z-index: -1;
+	background-image: url("../images/rockbubba.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 342px;
+	height: 608px;
+}
+
+#main3:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	opacity: .5;
+	z-index: -1;
+	background: url("../images/scissorsbubba.jpg");
+	background-size: cover;
+	width: 342px;
+	height: 608px;
+}
+
+#contact {
+	display: block;
+	float: left;
+	width: 33.3333%;
+}
+
+#copyright {
+	display: block;
+	float: right;
+	width: 16.6666%;
+}
+
+.wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.three_column {
+	margin: auto;
+	padding: 0 1.em;
+}
+
+/*#lander {
+	width: 100%;
+	float: left;
+}*/
+
+
+
