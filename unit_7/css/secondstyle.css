@@ -79,15 +79,7 @@ main {
 	line-height: 1.5em;
 }
 
-article img {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	display: inline-block;
-}
-
 section {
-	margin: 1em;
 
 }
 
@@ -148,13 +140,8 @@ p {
 	font-size: 1em;
 	line-height: 1.5em;
 	padding: 0;
-	margin: 0;
-	border: none;
-}
-
-article p {
-	width: 100%;
-	box-sizing: content-box;
+	margin: auto;
+	width: 95%;
 }
 
 ul {
@@ -170,8 +157,9 @@ article {
 	display: block;
 	float: left;
 /*	width: 28.5%;*/
-	padding: 0 .5em 0 .5em;
-	margin: .75em;
+	margin: 2em;
+	padding: 1em 0;
+	box-sizing: content-box;
 }
 
 
@@ -187,10 +175,9 @@ article {
 #main1 {
 	width: 27%;
 	height: 100%;
-	margin-left: 2em;
 	background-image: url("../images/smallrockbubba.png");
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 342px 608px;
 	display: block;
 }
 
@@ -198,24 +185,23 @@ article {
 /*	position: static;*/
 	width: 27%;
 	height: 100%;
-	margin-left: 1em;
-	margin-right: 1em;
 	display: block;
+	background-image: url("../images/smallpaperbelle.png");
+	background-repeat: no-repeat;
+	background-size: 342px 608px;
 }
 
-#main2 img {
-	width: auto;
-	height: auto;
-}
+/*#main2 img {
+	width: 342px;
+	height: 608px;
+}*/
 
 #main3 {
 /*	position: static;*/
 	width: 27%;
-	height: 100%;
-	margin-right: 2em;
 	background: url("../images/smallscissorsbubba.png");
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 342px 608px;
 	display: block;
 }
 
