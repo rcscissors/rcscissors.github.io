@@ -4,7 +4,7 @@
 * {
 	padding: 0
 	margin: 0;
-	/*box-sizing: border-box;*/
+	box-sizing: content-box;
 }
 
 body {
@@ -79,17 +79,16 @@ main {
 	line-height: 1.5em;
 }
 
-/*article img {
+article img {
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	display: inline-block;
-}*/
+}
 
 section {
-/*	min-width: 10em;
-	max-width: 33em;*/
-	margin: 2em /*auto*/;
+	margin: 1em;
+
 }
 
 footer {
@@ -120,7 +119,7 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-family: Open Sans, san-serif;
-	margin: .25em;
+	padding: .25em;
 	font-weight: 800;
 	color: #fff;
 	line-height: 1.5
@@ -149,11 +148,13 @@ p {
 	font-size: 1em;
 	line-height: 1.5em;
 	padding: 0;
+	margin: 0;
 	border: none;
 }
 
 article p {
-	width: 95%;
+	width: 100%;
+	box-sizing: content-box;
 }
 
 ul {
@@ -169,14 +170,11 @@ article {
 	display: block;
 	float: left;
 	width: 28.5%;
+	padding: 0 .5em 0 .5em;
 	margin: .75em;
 	box-sizing: content-box;
 }
 
-/*.column {
-	z-index: 2;
-	position: relative;
-}*/
 
 .clearfix:after {
 	visibility: hidden;
@@ -190,25 +188,31 @@ article {
 #main1 {
 	z-index: 2;
 	position: relative;
-	width: 28.5%;
+	width: 27%;
+	margin-left: 2em;
 	
 }
+
 #main2 {
 	z-index: 2;
 	position: relative;
-	width: 28.5%;
-	padding: 0 1.2em 0 1.2em;
+	width: 27%;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 #main3 {
 	z-index: 2;
 	position: relative;
-	width: 28.5%;
+	width: 27%;
+	margin-right: 2em;
 }
 
 #main2 img{
 	width: 342px;
 	height: 608px;
+	/*max-width: 100%;
+	max-height: auto;*/
 	opacity: .5;
 	z-index: -1;
 }
@@ -224,6 +228,8 @@ article {
 	background-repeat: no-repeat;
 	width: 342px;
 	height: 608px;
+/*	width: 100%;
+	height: auto;*/
 }
 
 #main3:before {
@@ -236,6 +242,8 @@ article {
 	background-size: cover;
 	width: 342px;
 	height: 608px;
+/*	max-width: 100%;
+	max-height: auto;*/
 }
 
 #contact {
@@ -257,13 +265,14 @@ article {
 }
 .three_column {
 	margin: auto;
-	padding: 0 1.em;
+	padding: 0 2em;
 }
 
-/*#lander {
-	width: 100%;
-	float: left;
-}*/
+@media only screen and (max-width: ) {
+
+} 
+
+
 
 
 
