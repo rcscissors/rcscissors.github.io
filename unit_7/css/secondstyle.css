@@ -169,10 +169,9 @@ ul {
 article {
 	display: block;
 	float: left;
-	width: 28.5%;
+/*	width: 28.5%;*/
 	padding: 0 .5em 0 .5em;
 	margin: .75em;
-	box-sizing: content-box;
 }
 
 
@@ -186,38 +185,41 @@ article {
 }
 
 #main1 {
-	z-index: 2;
-	position: relative;
 	width: 27%;
+	height: 100%;
 	margin-left: 2em;
-	
+	background-image: url("../images/smallrockbubba.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: block;
 }
 
 #main2 {
-	z-index: 2;
-	position: relative;
+/*	position: static;*/
 	width: 27%;
+	height: 100%;
 	margin-left: 1em;
 	margin-right: 1em;
+	display: block;
+}
+
+#main2 img {
+	width: auto;
+	height: auto;
 }
 
 #main3 {
-	z-index: 2;
-	position: relative;
+/*	position: static;*/
 	width: 27%;
+	height: 100%;
 	margin-right: 2em;
+	background: url("../images/smallscissorsbubba.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: block;
 }
 
-#main2 img{
-	width: 342px;
-	height: 608px;
-	/*max-width: 100%;
-	max-height: auto;*/
-	opacity: .5;
-	z-index: -1;
-}
-
-#main1:before {
+/*#main1:before {
 	content: " ";
 	display: block;
 	position: absolute;
@@ -227,11 +229,11 @@ article {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 342px;
-	height: 608px;
+	height: 608px;*/
 /*	width: 100%;
 	height: auto;*/
 }
-
+/*
 #main3:before {
 	content: " ";
 	display: block;
@@ -243,7 +245,7 @@ article {
 	width: 342px;
 	height: 608px;
 /*	max-width: 100%;
-	max-height: auto;*/
+	max-height: auto;*/*/
 }
 
 #contact {
