@@ -4,7 +4,7 @@
 * {
 	padding: 0
 	margin: 0;
-	box-sizing: content-box;
+	/*box-sizing: content-box;*/
 }
 
 body {
@@ -102,7 +102,7 @@ h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-family: Rammetto One, Cursive;
-	padding: 1em 2em 0 2em;
+	padding-top: 1em;
 	line-height: 1.5em;
 	word-spacing: 1em;
 	margin: 0 auto;
@@ -119,12 +119,16 @@ h2 {
 
 h3 {
 	font-weight: 800;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-transform: uppercase;
 	color: #fff;
 	word-spacing: .1em;
 	line-height: 1.5em;
 /*	text-shadow: 1px 0px 2px #fff;*/
+}
+
+#main3 h3 {
+	padding-bottom: .5em;
 }
 
 hr {
@@ -147,18 +151,16 @@ p {
 ul {
 	display: inline-block;
 	list-style-position: inside;
-/*	text-align: left;*/
 	font-size: 1em;
-	padding: .5em 5em;
 	margin: 0 auto;
+	padding-bottom: 1em;
 }
 
 article {
 	display: block;
 	float: left;
 /*	width: 28.5%;*/
-	margin: 2em;
-	padding: 1em 0;
+	margin: 1em auto;
 	box-sizing: content-box;
 }
 
@@ -177,73 +179,47 @@ article {
 	height: 100%;
 	background-image: url("../images/smallrockbubba.png");
 	background-repeat: no-repeat;
-	background-size: 342px 608px;
+	background-position: center;
 	display: block;
+	padding: 7em 2em;
+	background-clip: border-box;
 }
 
 #main2 {
-/*	position: static;*/
 	width: 27%;
 	height: 100%;
 	display: block;
 	background-image: url("../images/smallpaperbelle.png");
 	background-repeat: no-repeat;
-	background-size: 342px 608px;
+	background-position: center;
+	padding: 7em 2em;
 }
 
-/*#main2 img {
-	width: 342px;
-	height: 608px;
-}*/
-
 #main3 {
-/*	position: static;*/
 	width: 27%;
 	background: url("../images/smallscissorsbubba.png");
 	background-repeat: no-repeat;
-	background-size: 342px 608px;
+	background-position: center;
 	display: block;
+	padding: 7em 2em;
 }
 
-/*#main1:before {
-	content: " ";
-	display: block;
-	position: absolute;
-	opacity: .5;
-	z-index: -1;
-	background-image: url("../images/rockbubba.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 342px;
-	height: 608px;*/
-/*	width: 100%;
-	height: auto;*/
-}
-/*
-#main3:before {
-	content: " ";
-	display: block;
-	position: absolute;
-	opacity: .5;
-	z-index: -1;
-	background: url("../images/scissorsbubba.jpg");
-	background-size: cover;
-	width: 342px;
-	height: 608px;
-/*	max-width: 100%;
-	max-height: auto;*/*/
+.three_column {
+	vertical-align: top;
 }
 
-#contact {
+#email {
 	display: block;
 	float: left;
 	width: 33.3333%;
+	margin: 0;
 }
 
 #copyright {
 	display: block;
 	float: right;
 	width: 16.6666%;
+	margin: 0;
 }
 
 .wrapper {
@@ -256,10 +232,85 @@ article {
 	padding: 0 2em;
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 1410px ) {
+	article {
+		float: none;
+		margin: 1em auto;
+	}
+
+	#main1, #main2, #main3 {
+/*		padding: 7em 2em;*/
+	}
+
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
 
 } 
 
+@media only screen and (max-width: 1086px) {
+	p {
+		font-size: 18px;
+	}
+
+	#email, #copyright{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#main1, #main2, #main3 {
+		width: 40%;
+	}
+
+	footer {
+		height: 5em;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	nav a {
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	#logo {
+		float: none;
+		width: auto;
+		margin: 0 auto;	
+	}
+
+	#email, #copyright {
+		padding: .5em;
+	}
+
+	footer {
+		height: 7em;
+	}
+
+	/*body {
+		font-size: 16px;
+	}*/
+
+	#main1, #main2, #main3{
+		width: 45%%;
+		padding: 9em 5em;
+	}
+
+	.wrapper {
+		width: auto;
+		padding: 1em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#main1, #main2, #main3{
+		width: 60%%;
+		padding: 7em 5em;
+	}
+}
 
 
 
