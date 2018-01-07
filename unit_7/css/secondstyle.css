@@ -232,6 +232,16 @@ article {
 	padding: 0 2em;
 }
 
+@media only screen and (min-wdith: 1800px) {
+	body {
+		font-size: 24px;
+	}
+
+	.wrapper {
+		width: 1620px;
+	}
+}
+
 @media only screen and (max-width: 1410px ) {
 	article {
 		float: none;
@@ -267,6 +277,10 @@ article {
 	footer {
 		height: 5em;
 	}
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 860px) {
@@ -295,22 +309,43 @@ article {
 	}*/
 
 	#main1, #main2, #main3{
-		width: 45%%;
+		width: 45%;
 		padding: 9em 5em;
 	}
 
 	.wrapper {
-		width: auto;
+		width: 80%;
 		padding: 1em;
 	}
 }
 
 @media only screen and (max-width: 500px) {
 	#main1, #main2, #main3{
-		width: 60%%;
-		padding: 7em 5em;
+		width: 60%;
+		padding: 7em 3em;
+	}
+	.wrapper {
+		width: auto;
+		margin: 0 auto;
 	}
 }
+
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	#main1, #main2, #main3{
+		width: 70%;
+		padding: 7em 1em;
+	}
+	.wrapper {
+		width: auto;
+		margin: 0 auto;
+	}
+
+}
+
 
 
 
