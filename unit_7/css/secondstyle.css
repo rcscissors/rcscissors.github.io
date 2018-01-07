@@ -15,7 +15,7 @@ body {
 	line-height: 1.3em;
 	text-align: center;
 	background: url("../images/offwhitebrickbackground.jpg");
-	background-size: cover; 
+	background-size: contain; 
 	background-attachment: fixed;
 	padding: .5em 0 0 0;
 	margin: auto;
@@ -332,6 +332,10 @@ article {
 	h1 {
 		font-size: 2.8em;
 	}
+
+	footer p {
+		font-size: 1em;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -343,11 +347,11 @@ article {
 		width: 70%;
 		padding: 7em 1em;
 	}
+
 	.wrapper {
 		width: auto;
 		margin: 0 auto;
 	}
-
 }
 
 
