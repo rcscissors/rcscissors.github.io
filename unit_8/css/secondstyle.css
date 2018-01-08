@@ -29,7 +29,7 @@ nav {
 nav a {
 	display: block;
 	float: left;
-	width: /*5em*/ 10%;
+	width: auto;
 	margin: 0;
 	box-sizing: content-box;
 	background-color: #4c0f0f;
@@ -252,7 +252,7 @@ footer {
 	}
 
 	.wrapper {
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 
@@ -301,11 +301,14 @@ footer {
 		float: none;
 		display: inline-block;
 		text-align: center;
+		margin: 0 auto;
+		padding: 2em 2em;
+		width: auto;
 	}
 
 	#logo {
 		float: none;
-		width: auto;
+		width: 70%;
 		margin: 0 auto;	
 	}
 
@@ -331,7 +334,7 @@ footer {
 	}
 
 	.wrapper {
-		width: 80%;
+		width: 90%;
 		padding: 1em;
 	}
 }
