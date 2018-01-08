@@ -259,9 +259,6 @@ footer {
 		width: auto;
 		margin: auto;
 	}
-	p {
-		font-size: 18px;
-	}
 	#email, #copyright{
 		float: none;
 		text-align: center;
@@ -305,7 +302,7 @@ footer {
 		width: 70%;
 	}
 	.text {
-		width: 70%;
+		width: 65%;
 		margin: auto;
 	}
 	.wrapper {
@@ -322,14 +319,14 @@ footer {
 		width: auto;
 		margin: 0 auto;
 	}
+	body {
+		font-size: 18px;
+	}
 	h1 {
 		font-size: 2.8em;
 	}
 	footer p {
 		font-size: 1em;
-	}
-	ul {
-		font-size: 18px;
 	}
 }
 
