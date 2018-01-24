@@ -97,7 +97,7 @@ aside img {
 
 p {
 /*	padding: 1em 2em;*/
-	padding: .5em 0;
+	padding: 1em 0;
 }
 
 h1 {
@@ -241,9 +241,28 @@ ul {
 		font-size: 18px;
 	}
 
+	main {
+		padding: 1em 1em;
+	}
+
+	article {
+		padding: 1em;
+	}
+
 	h1 {
 		font-size: 2em;
 	}
+
+	h3 {
+		font-size: 1.3em;
+
+	}
+
+	ul {
+		margin: 0 auto;
+		padding: .5em;
+	}
+
 	
 	#copyright {
 		float: none;
@@ -255,6 +274,14 @@ ul {
 		float: none;
 		width: 100%;
 		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 350px) {
+
+	h1 {
+		font-size: 1.5em;
 	}
 
 }
