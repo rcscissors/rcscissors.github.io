@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
 
 
 body {
@@ -96,7 +97,8 @@ p {
 
 h1 {
 	font-size: 3.3em;
-	font-family: 'Leckerli One', Cursive;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
 	color: #fff;
 	line-height: 1.5em;
 }
