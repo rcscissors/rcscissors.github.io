@@ -112,7 +112,7 @@ h3 {
 	font-weight: 700;
 	font-size: 1.7em;
 	text-align: center;
-	padding: 1em 0;
+	padding: 1em .5em;
 	text-transform: uppercase;
 	letter-spacing: .03em;
 	background-color: #5A8AA5;
