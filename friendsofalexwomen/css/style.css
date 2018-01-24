@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
-@import url('https://fonts.googleapis.com/css?family=Passion+One:400');
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Ribeye');
+
 
 body {
 	font-size: 20px;
@@ -98,7 +97,7 @@ p {
 
 h1 {
 	font-size: 3.3em;
-	font-family: 'Luckiest Guy', Cursive;
+	font-family: 'Ribeye', Cursive;
 	color: #fff;
 	line-height: 1.5em;
 	margin: 0 auto;
