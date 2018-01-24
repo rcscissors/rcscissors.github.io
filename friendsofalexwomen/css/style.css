@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Ribeye');
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
 
 
 body {
@@ -74,6 +75,10 @@ main img {
 	margin: 0 auto;
 }
 
+article {
+	padding: 1.5em 1em;
+}
+
 footer {
 	clear: both;
 	background-color: #26729b;
@@ -92,18 +97,18 @@ aside img {
 
 p {
 /*	padding: 1em 2em;*/
-	padding: 1em 0 0 0;
-
+	padding: .5em 0;
 }
 
 h1 {
-	font-size: 3.3em;
-	font-family: 'Kausahn Script', Cursive;
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
 	color: #fff;
 	line-height: 1.5em;
 	margin: 0 auto;
 /*	padding: .5em 1em;*/
-	letter-spacing: .03em
+/*	letter-spacing: .03em*/
 }
 
 h2 /*slogan*/ {
@@ -113,13 +118,13 @@ h2 /*slogan*/ {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 1.7em;
 	text-align: center;
 	padding: 1em 0;
 	text-transform: uppercase;
-	letter-spacing: .03em;
+/*	letter-spacing: .03em;*/
 	background-color: #5A8AA5;
 	line-height: 1.5em;
 	width: 100%;
