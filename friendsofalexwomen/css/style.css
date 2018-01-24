@@ -72,11 +72,11 @@ main {
 main img {
 	max-width: 90%;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 1em auto;
 }
 
 article {
-	padding: 1.5em 1em;
+	padding: 0 1em 1em 1em;
 }
 
 footer {
@@ -128,7 +128,7 @@ h3 {
 	background-color: #5A8AA5;
 	line-height: 1.5em;
 	width: 100%;
-	margin: 1em auto;
+	margin: 0 auto;
 }
 
 h4 {
