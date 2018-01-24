@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
-
+@import url('https://fonts.googleapis.com/css?family=Passion+One:400');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 
 body {
 	font-size: 20px;
@@ -64,6 +65,7 @@ main {
 	margin: 0 auto;
 	background-color: #7ec2eb;
 	padding: 1em 2em;
+	box-sizing: border-box;
 }
 
 main img {
@@ -95,13 +97,13 @@ p {
 }
 
 h1 {
-	font-size: 2.5em;
-	font-family: 'Playfair Display', serif;
-	font-weight: 900;
+	font-size: 3.3em;
+	font-family: 'Luckiest Guy', Cursive;
 	color: #fff;
 	line-height: 1.5em;
 	margin: 0 auto;
 	padding: .5em 1em;
+	letter-spacing: .03em
 }
 
 h2 /*slogan*/ {
@@ -115,13 +117,13 @@ h3 {
 	font-weight: 700;
 	font-size: 1.7em;
 	text-align: center;
-	padding: 1em .5em;
+	padding: 1em 0;
 	text-transform: uppercase;
 	letter-spacing: .03em;
 	background-color: #5A8AA5;
 	line-height: 1.5em;
 	width: 100%;
-	margin: 0 auto;
+	margin: 1em auto;
 }
 
 h4 {
