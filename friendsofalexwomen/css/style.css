@@ -32,6 +32,20 @@ nav a {
 	color: #1c5473;
 }
 
+main nav {
+	width: 100%;
+}
+
+main nav a {
+	float: left;
+	width: 33%;
+	padding: 1em 0;
+	display: inline;
+	margin:  0 auto;
+	text-align: center;
+	font-size: .9em;
+}
+
 a {
 	text-decoration: none;
 	font-weight: 700;
@@ -43,6 +57,8 @@ header {
 	text-align: center;
 	background-color: #26729b;
 	padding: 1em;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 aside {
@@ -82,11 +98,13 @@ article {
 footer {
 	clear: both;
 	background-color: #26729b;
-	margin: 0 auto;
+	margin: 0 auto 1em 0;
 	padding: .5em 1em;
 	box-sizing: border-box;
 	color: #fff;
 	font-size: .8em;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
 
 aside img {
@@ -94,6 +112,11 @@ aside img {
 	display: block;
 	margin: 0 auto;
 }
+
+th {
+	font-weight: 700;
+}
+
 
 p {
 /*	padding: 1em 2em;*/
@@ -121,11 +144,12 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 1.7em;
+	color: #fff;
 	text-align: center;
 	padding: 1em 0;
 	text-transform: uppercase;
 /*	letter-spacing: .03em;*/
-	background-color: #5A8AA5;
+	background-color: #26729b /*#5A8AA5*/;
 	line-height: 1.5em;
 	width: 100%;
 	margin: 0 auto;
@@ -183,18 +207,23 @@ ul {
 	text-align: right;
 }
 
-#ticeroutline {
+.whitebox {
 /*	border: 5px solid #fff;*/
 	display: block;
 	background-color: #fff;
 	padding: 1em 0;
 }
+/*
+#paypal {
+	margin: auto;
+	width: 100%;
+}*/
 
 .ticer {
 	text-align: center;
 	padding: 0 2em 0 2em;
-
 }
+
 
 .clearfix:after {
 	visibility: hidden;
@@ -245,6 +274,11 @@ ul {
 		padding: 1em 1em;
 	}
 
+	main nav a {
+		float: none;
+		width: 100%;
+		display: block;
+	}
 	article {
 		padding: 1em;
 	}
