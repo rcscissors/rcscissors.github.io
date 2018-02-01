@@ -153,6 +153,7 @@ h3 {
 	line-height: 1.5em;
 	width: 100%;
 	margin: 0 auto;
+	letter-spacing: .05em;
 }
 
 h4 {
@@ -181,6 +182,11 @@ ul {
 	list-style-position: outside;
 	margin: 0 .5em 0 1.5em;
 	padding: 0 1.5em;
+}
+
+h3 + ul {
+	padding: 1em 1.5em;
+
 }
 
 #page {
