@@ -213,6 +213,11 @@ h3 + ul {
 	text-align: right;
 }
 
+#jenwalker {
+	width: 40%;
+	margin: 0 auto;
+}
+
 .whitebox {
 /*	border: 5px solid #fff;*/
 	display: block;
