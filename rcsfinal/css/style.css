@@ -103,6 +103,13 @@ main article {
 	border-top-left-radius: 50px;*/
 }
 
+article img {
+	width: 150px;
+	padding: 1em 0 ;
+	margin: 0 auto;
+	display: flex;
+}
+
 p {
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
