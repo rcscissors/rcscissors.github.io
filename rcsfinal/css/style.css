@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+
+
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.3em;
+	background: url("../images/colorfulbrickbackground.jpg")/*url("../images/offwhitebrickbackground.jpg")*/;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: rgba(40,39,37,.9); /*rgba(203,101,101,.4);*/
+	width: 90%;
+	margin: 2em auto 0;
+	padding: .5em 0 0 0;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	/*border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;*/
+}
+
+header img {
+	width: 10%;
+	flex: 0 1 auto;
+	margin: 0 2em 0 2em;
+	padding: 1em 0;
+	display: flex;
+	float: left;
+	box-sizing: inherit;
+	vertical-align: middle;
+}
+
+header h1 {
+	font-size: 3em;
+	font-family: 'Rammetto One', cursive;
+	color: #f4eede;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	flex: 0 1 auto;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+nav {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #4c0f0f;
+/*	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;*/
+	display: flex;
+/*	display: inline-flex;*/
+}
+
+nav a {
+	width: 30%;
+	padding: 1em;
+	margin: 0 auto;
+	/*display: inline-block;*/
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .1em;
+	color: #f4eede;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+a:active {
+	color: #CB6565;
+}
+
+
+
+main {
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+main article {
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	background-color: rgba(40,39,37,.9);
+	flex: 1 1 auto;
+	align-self: stretch;
+	/*border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;*/
+}
+
+p {
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	color: #f4eede;
+	padding: 1em;
+	line-height: 1.5em;
+}
+
+footer {
+	width: 90%;
+	margin: 0 auto 1em auto;
+	background-color: #4c0f0f;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+footer p {
+	color: #f4eede;
+	font-size: .8em;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content:" ";
+	clear: both;
+	height:0;
+}
+
