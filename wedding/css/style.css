@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+	background: url("../images/sandbackground.jpg");
+	background-size: contain;
+	background-attachment: fixed;
+	width: 70%;
+	margin: 1em auto 0 auto;
+	overflow: auto;
+}
+
+header {
+	width: 100%;
+	background-color: #F1EFEC;
+	margin: 0 auto;
+	border-top-right-radius: 75px;
+	border-top-left-radius: 75px;
+}
+
+nav {
+	width: 30%;
+	display: flex;
+/*	float: left;*/
+	background-color: #F1EFEC;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav a {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #3C4B84;
+	text-decoration: none;
+	padding: 1em;
+	margin: 1em auto;
+	flex: 0 1 auto;
+}
+
+nav img {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+}
+	
+
+header h1 {
+	font-size: 4em;
+	font-family: "Pacifico", cursive;
+	text-align: center;
+	color: #3C4B84;
+	margin: 0 auto;
+	padding: .5em 0 .5em 0 ;
+	line-height: 1.5em;
+	letter-spacing: .15em;
+}
+
+main {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+/*	float: left;*/
+}
+
+article img {
+	width: 100%;
+	height: auto;
+	padding: 0 auto;
+	margin: 0 auto;
+	display: flex;
+}
+
+footer {
+	width: 100%;
+	margin: -1em auto 1em auto;
+	padding: 2em 0 1em 0;
+	background-color: #F1EFEC;
+	border-bottom-left-radius: 75px;
+	border-bottom-right-radius: 75px;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;
+	color: #fff;
+}
+
+/*#wrapper {
+	overflow: auto;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content:" ";
+	clear: both;
+	height:0;
+}
+
+@media only screen and (max-width: 800px) {
+	header h1 {
+		font-size: 2em;
+	}
+
+	nav {
+		display: block;
+		flex: none;
+	}
+
+	main {
+		display: block;
+		flex: none;
+	}
+}	
+
+
+
