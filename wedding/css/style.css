@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
 
 body {
 	font-size: 20px;
@@ -8,27 +10,47 @@ body {
 	background: url("../images/sandbackground.jpg");
 	background-size: contain;
 	background-attachment: fixed;
-	width: 70%;
+	width: 80%;
 	margin: 1em auto 0 auto;
 	overflow: auto;
 }
 
 header {
 	width: 100%;
-	background-color: #F1EFEC;
+	background-color: /*#F1EFEC*/;
+	margin: 2em auto 0 auto;
+/*	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;*/
+	display: flex;
+}
+
+header h1 {
+	font-size: 4em;
+	font-family: "Arvo", serif;
+	text-align: center;
+	color: #3C4B84;
 	margin: 0 auto;
-	border-top-right-radius: 75px;
-	border-top-left-radius: 75px;
+	padding: .5em;
+	line-height: 1.5em;
+	letter-spacing: .15em;
+	flex: 1 1 auto;
+}
+
+span {
+	background-color: rgba(183,224,228,.6);
 }
 
 nav {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
 	width: 30%;
 	display: flex;
-/*	float: left;*/
+	float: left;
 	background-color: #F1EFEC;
 	margin: 0 auto;
 	flex-direction: column;
 	align-items: center;
+	padding: 4em 0 0 0;
 }
 
 nav a {
@@ -37,37 +59,27 @@ nav a {
 	font-weight: 700;
 	color: #3C4B84;
 	text-decoration: none;
-	padding: 1em;
-	margin: 1em auto;
-	flex: 0 1 auto;
-}
-
-nav img {
-	width: 50%;
+	padding: 1em .5em;
 	margin: 0 auto;
-	display: flex;
-}
-	
+	flex: 1 1 auto;
+}	
 
-header h1 {
-	font-size: 4em;
-	font-family: "Pacifico", cursive;
-	text-align: center;
-	color: #3C4B84;
-	margin: 0 auto;
-	padding: .5em 0 .5em 0 ;
-	line-height: 1.5em;
-	letter-spacing: .15em;
-}
 
 main {
-	width: 100%;
+	width: 85%;
 	margin: 0 auto;
 	display: flex;
 /*	float: left;*/
 }
 
+article {
+	float: left;
+
+}
+
 article img {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
 	width: 100%;
 	height: auto;
 	padding: 0 auto;
@@ -79,9 +91,9 @@ footer {
 	width: 100%;
 	margin: -1em auto 1em auto;
 	padding: 2em 0 1em 0;
-	background-color: #F1EFEC;
-	border-bottom-left-radius: 75px;
-	border-bottom-right-radius: 75px;
+	background-color:/* #F1EFEC*/;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
 	clear: both;
 }
 
@@ -89,7 +101,8 @@ footer p {
 	text-align: center;
 	padding: 0;
 	margin: 0 auto;
-	color: #fff;
+	color: #000;
+	font-size: .5em;
 }
 
 /*#wrapper {
@@ -105,21 +118,83 @@ footer p {
 	height:0;
 }
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 900px) {
 	header h1 {
 		font-size: 2em;
 	}
 
 	nav {
-		display: block;
-		flex: none;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 .5em 0;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+
+	nav a {
+		font-size: 1em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3C4B84;
+		text-decoration: none;
+		padding: 1em .5em;
+		margin: 0 auto;
+		flex: 1 1 auto;
+		text-align: center;
+	}
+
+	article img {
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 50px;
 	}
 
 	main {
 		display: block;
 		flex: none;
+		float: none;
 	}
-}	
+
+@media only screen and (max-width: 500px) {
+	header h1 {
+		font-size: 1.5em;
+		padding: 1em .5em .5em .5em;
+	}
+
+	nav {
+		display: inline-flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 .5em 0;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+
+	article img {
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 50px;
+	}
+
+	nav a {
+		font-size: .75em;
+		flex: 1 1 auto;
+	}
+
+	footer {
+		padding: .5em 0;
+	}
+
+	footer p {
+		font-size: .4em;
+	}
+}
 
 
 
